@@ -23,7 +23,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 git clone https://github.com/NULLlnull/luci-theme-rosy.git package/luci-theme-rosy
 
 #使用File大法，在编译好的时候先下载一份最新的GFW列表和大陆IP进去
-wget -O files/etc/ssrplus/china_ssr.txt https://ispip.clang.cn/all_cn.txt
+#wget -O files/etc/ssrplus/china_ssr.txt https://ispip.clang.cn/all_cn.txt
 
 #修改默认主题
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
